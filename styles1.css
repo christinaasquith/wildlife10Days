@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: helvetica, arial, sans;
+    min-height: 100vh;
+    background-color: #fc1803e9;
+    padding: 30px;
+     
+  
+}
+
+.content-container {
+    flex-grow: 1;
+    padding-top: 10vh;
+    width: 100%;
+    border: 2px black;
+    background-color: #fc6f03;
+    padding: 10px;
+    
+}
+
+
+.full-hero {
+  background-color: #fc9d03;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 30vh;
+  padding: 10px;
+}
+
+.more {
+    background-color: #fcba03 ;
+    padding: 10px;
+}
+
+.footer {
+    padding: 10px; 
+     background-color: #fcba80;
+}
